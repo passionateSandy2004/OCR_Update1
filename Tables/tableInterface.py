@@ -55,7 +55,7 @@ def process_image():
         res=TableOcr(image_path)
         print(res)
         # Return a success message
-        return jsonify({'FolderPath': r"D:\OCR Models\Own model\Spacy Model\simpleTransformer\lm Connection\Tables\T"}), 200
+        return jsonify({'FolderPath': r"D:\OCR Models\Own model\Spacy Model\simpleTransformer\lm Connection\Tables\T"}), 200 #Replace it with Tables\T for your server
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
