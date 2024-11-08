@@ -1,0 +1,16 @@
+[
+    {
+        "Price":"Price",
+        "CGST":"CGST",
+        "SGST":"SGST",
+        "IGST":"IGST",
+        "Total":"Total"
+    },
+    {
+        "Price":"4,067.80",
+        "CGST":"9%",
+        "SGST":"9%",
+        "IGST":"0%",
+        "Total":"12,203.40"
+    }
+]

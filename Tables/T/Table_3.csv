@@ -1,0 +1,12 @@
+Invoice,No.,Dated,SHB/456/20,20-Dec-20
+Invoice,No.,Dated,SHB/456/20,20-Dec-20
+SHB/456/20,SHB/456/20,20-Dec-20,Delivery,Mode/lerms
+Delivery,Delivery,Mode/lerms,Note,Other
+Reference,Note,Other,Reference,References
+Buyer's,Reference,Dated,No.,Dated
+Dispatch,No.,Delivery,Buyer's,Delivery
+Dispatched,Order,Destination,Order,Note
+,Dispatch,,Dispatch,Destination
+,Doc,,Doc,
+,Dispatched,,Dispatched,
+,,,through,
