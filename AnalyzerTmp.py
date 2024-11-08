@@ -42,7 +42,7 @@ def call_table_ocr_api(image_path):
     except requests.exceptions.RequestException as e:
         print("Request failed:", str(e))
 
-TableFolder=call_table_ocr_api(r"D:\OCR Models\Own model\Spacy Model\simpleTransformer\lm Connection\temp_image1.jpg")
+TableFolder=call_table_ocr_api(r"D:\OCR Models\Own model\Spacy Model\simpleTransformer\lm Connection\temp_image1.jpg") #Replace it with Image to analyze 
 l=AllTables.GiveTheTable()#The function takes all files in Table/T get the json file(where group of words are stored with positions) and with the positions the values are made into rows (which is the digital table)
 table=[]
 for i in l:
